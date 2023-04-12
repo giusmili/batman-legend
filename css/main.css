@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+html{
+    font-size: 62.5%;
+    background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+    url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
+}
+body{
+    font: 1.6rem "Montserrat", sans-serif;
+    margin: 0;
+    /* background-color: #2b2a33; */
+    line-height: 1.6;
+    letter-spacing: .1rem;
+}
+img{
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+h1,h2,h3,p,ul,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 300;
+}
+*{
+    box-sizing: border-box;
+}
+/* scrollbar c'est ici */
+*{
+    /* ff */
+    scrollbar-width: thin;
+    scrollbar-color: #000 #fff;
+}
+/* webkit */
+*::-webkit-scrollbar{
+    width: .2rem;
+}
+
+header h1{
+    line-height: 7.8rem;
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+}
+
+figure{
+    max-width: 90rem;
+    background: #fff;
+    margin: 5rem auto;
+    padding: 1rem;
+}
+footer>p{
+    color: #fff;
+    text-align: center;
+}
+
+figure details{
+    padding: 1rem 0;
+}
+figure details summary{
+    line-height: 4.5rem;
+    cursor: pointer;
+}
+figure figcaption ul li{
+    font-weight: 300;
+}
